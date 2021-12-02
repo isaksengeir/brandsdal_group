@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:AF031497-9F32-422F-BCC4-E08B502F8149</id>
+ <title>Page list Atom feed</title>
+ <updated>2013-12-11T18:39:46+01:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:515D2F83-AB0D-4FF2-84C5-FCA893E29F73</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">515D2F83-AB0D-4FF2-84C5-FCA893E29F73</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2013-12-11T18:39:46.001+01:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:3ECBC659-2084-44C6-998C-9367EB235D37</id>
+  <title>Prof. Brandsdal</title>
+  <title xmlns="urn:iweb:">Prof. Brandsdal</title>
+  <in-navbar xmlns="urn:iweb:">3ECBC659-2084-44C6-998C-9367EB235D37</in-navbar>
+  <link rel="alternate" href="Prof._Brandsdal.html"/>
+  <updated>2013-12-11T18:39:46.002+01:00</updated>
+  <content>Prof. Brandsdal</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:5BBA85DF-6D0F-4DAF-8B41-185F58B4663F</id>
+  <title>Publications</title>
+  <title xmlns="urn:iweb:">Publications</title>
+  <in-navbar xmlns="urn:iweb:">5BBA85DF-6D0F-4DAF-8B41-185F58B4663F</in-navbar>
+  <link rel="alternate" href="Publications.html"/>
+  <updated>2013-12-11T18:39:46.003+01:00</updated>
+  <content>Publications</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:36DE2531-0225-40FF-8419-8EE74801845F</id>
+  <title>Research projects</title>
+  <title xmlns="urn:iweb:">Research projects</title>
+  <in-navbar xmlns="urn:iweb:">36DE2531-0225-40FF-8419-8EE74801845F</in-navbar>
+  <link rel="alternate" href="Research_projects.html"/>
+  <updated>2013-12-11T18:39:46.004+01:00</updated>
+  <content>Research projects</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:C538DDE4-DE35-4F34-8997-6BDB47058D2D</id>
+  <title>Group Members</title>
+  <title xmlns="urn:iweb:">Group Members</title>
+  <in-navbar xmlns="urn:iweb:">C538DDE4-DE35-4F34-8997-6BDB47058D2D</in-navbar>
+  <link rel="alternate" href="Group_Members.html"/>
+  <updated>2013-12-11T18:39:46.005+01:00</updated>
+  <content>Group Members</content>
+ </entry>
+</feed>

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Home</title>
+<style type="text/css">
+
+
+<!--
+-->
+</style>
+<link href="css/bg.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+</style>
+<![endif]-->
+
+<!-- include jQuery library -->
+<script src="js/jquery.min.js" type="text/javascript" ></script>
+<!-- include Cycle plugin -->
+<script  src="js/jquery.cycle2.min.js" type="text/javascript"></script>
+<!-- Center images in Cycle plugin -->
+<script src="js/jquery.cycle2.center.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+          fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+     });
+});
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="bob_header.png" min-width="938px" width="100%" min-height="100%" height="auto"/></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="Home.html">Home</a><a href="#"></a></li>
+      <li><a href="Brandsdal.html">Prof. Brandsdal</a></li>
+      <li><a href="Group_members.html">Group members</a></li>
+      <li><a href="Research_projects.html">Research projects</a><a href="#"></a></li>
+      <li><a href="Master_projects.html">Master projects</a><a href="#"></a></li>
+      <li><a href="Publications.html">Publications</a><a href="#"></a></li>
+      <li><a href="Software.html">Software</a><a href="#"></a></li>
+      <li><a href="Gallery.html">Gallery</a><a href="#"></a></li>
+      <li><a href="Contact.html">Contact</a><a href="#"></a></li>
+      <li><a href="Teaching.html">Teaching</a><a href="#"></a></li>
+    </ul>
+   
+  <!-- end .sidebar1 --></div>
+  <div class="content">
+    <h1>Welcome to the Brandsdal Group</h1>
+    <p> Welcome to the homepage of the Brandsdal Group located at UiT The Arctic University of Norway in the beatiful city of Tromsø. The Brandsdal group is part of the Centre for Theoretical and Computational Chemisty, <a href="http://www.ctcc.no">www.ctcc.no</a>. </p> 
+    <p> Our main activity involves the use of computer modelling to solve complex questions in chemistry and biology with emphasis on enzyme and ligand design. Software development to facilitate investigations of macromolecular complexes and to make more accurate computer modells are also core activites. </p>
+    	<!-- data-cycle-center-vert=true --> 
+        <div class="cycle-slideshow" 
+            data-cycle-center-horz=true 
+            
+            data-cycle-fx="scrollHorz"
+            data-cycle-pause-on-hover="true" 
+            data-cycle-timeout=6000>
+            
+            <!-- empty element for overlay -->
+            <div class="cycle-overlay"></div>
+            
+            <!-- This gives bullets on the top of slide -->
+            <div class="cycle-pager"></div> 
+            
+            <!-- Enable this to show page numbers in slides
+   	 		<div class="cycle-caption"></div> -->
+            
+            <img src="gallery/Qgui_toc.png" height='200px' 
+            data-cycle-title="Qgui: A high-throughput interface for automated setup and analysis of free energy calculations and empirical valence bond simulations in biological systems (2015)." 
+            data-cycle-desc="-Journal of Molecular Graphics and Modelling" />
+             
+            <img src="gallery/cold_trypsin.png" height='250px'
+            data-cycle-title="Enzyme Design" 
+            data-cycle-desc="Extensive computer simulations reproducing the catalytic effect"/>
+            
+            <img src="gallery/qgui_3d_logo.png" height='250px'
+            data-cycle-title="Qgui v1.2"
+            data-cycle-desc="Released september 2015" />
+            
+            <img src="gallery/Isaksen_phd_defence2015.jpeg" height='250px'
+            data-cycle-title="Nobel Laureate Arieh Warshel acted as first opponent for the PhD deffence of Geir V. Isaksen (June, 2015)"
+            data-cycle-desc="" />
+    
+    
+        <!-- end .content --></div>
+        
+        
+    <!-- end .content --></div>
+
+
+    
+
+    
+
+
+  <div class="footer"><!-- end .footer -->
+  <img src="bob_box_ctcc.png" width="100%" height="auto" min-width="938px" min-height="100%"/></div>
+  <!-- end .container --></div>
+
+      
+</body>
+</html>
